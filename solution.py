@@ -32,5 +32,5 @@ star_img=cv2.imread('StarMap.png',0) #read the star image and convert it to gray
 crop_img=cv2.imread('Small_area.png',0)
 corner_x,corner_y=find(star_img,crop_img)
 width,height=crop.shape[1],crop.shape[0]
-cv2_imshow(crop) #show the template crop image
-cv2_imshow(star[corner_x:corner_x+height,corner_y:corner_y+width]) #show the window in the scene that matches the crop image
+cv2.imshow(crop) #show the template crop image
+cv2.imshow(star[corner_x:corner_x+height,corner_y:corner_y+width]) #show the window in the scene that matches the crop image
