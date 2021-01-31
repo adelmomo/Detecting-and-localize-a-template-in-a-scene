@@ -1,0 +1,5 @@
+in order to run the code you need to install the following in the following order:
+Note: the order is important
+1. pip install  opencv-python==3.4.2.16
+2. pip install  opencv-contrib-python==3.4.2.16
+3. pip install numpy
